@@ -3,40 +3,81 @@ body{
     background-size: 1380px 670px;
     flex-wrap: wrap;
     padding: 0px 30px 20px 30px;
+    color: white;
 }
 
 #nav{
-    color: white;
+    
     font-size: 20px;
     display: flex;
     flex-direction: row; 
     justify-content: flex-end;
     align-items: center;
-    padding: 20px 50px 50px 30px;
+    padding: 30px 30px 50px 30px;
     font-weight: bold;
+
+}
+#module{
+    display: flex;
+    flex-direction: row; 
+    margin: 30px 30px 50px 30px;
+    justify-content: center;
+    margin-bottom: 100px;
+    
+}
+section{
+    text-align: center;
+    margin: 0px 200px 0px 200px;
 }
 hr{
-   
-}
+   margin: 0px 75px 0px 75px ;
 
-.hand{
-    align-content: flex-start;
+}
+article{
+    font-size: 20px;
+}
+blockquote{
+    font-size: 10px;
+    color: rgb(210, 210, 210);
+
+}
+.btn{
+    text-decoration: none;
+    color: rgb(49, 134, 49);
+    border-radius: 25px;
+    border-color: rgb(49, 134, 49);
+    border: solid 2px;
+    padding: 15px;
+}
+h1{
+    margin-bottom: 80px;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 170px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .item{
     color: white;
     font-size: 15px;
     text-decoration: none;
-    padding: 5px;
+    padding: 5px 15px 5px 15px;
 }
-
-.hand{
-    align-items: left;
+.item:nth-child(1)
+{
+    font-size: 20px;
+    flex: 1;
 }
-
+#ok{
+    display: inline;
+}
+.trait{
+    
+}
 @media screen and (max-width: 800px)
 {
     body{
         background-size: auto;
     }
 }
+
 
