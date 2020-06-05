@@ -1,5 +1,6 @@
 body{
-    background: url("my_background.png") no-repeat ;
+    background-image: radial-gradient(closest-side ellipse at center, rgb(189, 185, 185), rgb(150, 164, 167));
+
     background-size: 1380px 670px;
     flex-wrap: wrap;
     padding: 0px 30px 20px 30px;
@@ -39,7 +40,6 @@ article{
 blockquote{
     font-size: 10px;
     color: rgb(210, 210, 210);
-
 }
 .btn{
     text-decoration: none;
