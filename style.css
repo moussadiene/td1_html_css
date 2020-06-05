@@ -1,0 +1,42 @@
+body{
+    background: url("my_background.png") no-repeat ;
+    background-size: 1380px 670px;
+    flex-wrap: wrap;
+    padding: 0px 30px 20px 30px;
+}
+
+#nav{
+    color: white;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row; 
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 50px 50px 30px;
+    font-weight: bold;
+}
+hr{
+   
+}
+
+.hand{
+    align-content: flex-start;
+}
+.item{
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.hand{
+    align-items: left;
+}
+
+@media screen and (max-width: 800px)
+{
+    body{
+        background-size: auto;
+    }
+}
+
